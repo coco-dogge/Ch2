@@ -13,24 +13,15 @@ public class p19 {
         String str = br.readLine();
         char letter = str.charAt(0);
 
-        switch(letter)
-        {
-            case 'a':
-            {
-                System.out.println("in a");
-                break;
-            }
-            case 'b':
-            {
-                System.out.println("in b");
-                break;
-            }
-            default:
-            {
-                System.out.println("input a or b");
-                break;
-            }
-        }
-
+       if(letter == 'Y'||letter == 'y')
+       {
+           System.out.println("you are male");
+       }
+       else if(letter == 'N' || letter == 'n')
+       {
+           System.out.println("you are female");
+       }
+       else
+           System.out.println("input Y or N");
     }
 }
