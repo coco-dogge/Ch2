@@ -1,8 +1,10 @@
+package P7toP21;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class p14 {
+public class p16 {
     public static void main(String[] args)throws IOException
     {
         System.out.println("in");
@@ -10,23 +12,24 @@ public class p14 {
         BufferedReader br =
                 new BufferedReader(new InputStreamReader(System.in));
 
-        int num = Integer.parseInt(br.readLine());
+        String str = br.readLine();
+        char letter = str.charAt(0);
 
-        switch(num)
+        switch(letter)
         {
-            case 1:
+            case 'a':
             {
-                System.out.println("in1");
+                System.out.println("in a");
                 break;
             }
-            case 2:
+            case 'b':
             {
-                System.out.println("in2");
+                System.out.println("in b");
                 break;
             }
             default:
             {
-                System.out.println("input 1 or 2");
+                System.out.println("input a or b");
                 break;
             }
         }
