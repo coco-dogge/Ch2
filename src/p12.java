@@ -17,6 +17,6 @@ public class p12 {
         else if(num == 2)
             System.out.println("in2");
         else
-        System.out.println("input 1 or 2");
+            System.out.println("input 1 or 2");
     }
 }
